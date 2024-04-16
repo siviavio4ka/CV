@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Roboto Slab', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #000;
 }
@@ -24,6 +24,10 @@ h2 {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+main {
+	padding-bottom: 20px;
 }
 
 .header {
@@ -77,6 +81,7 @@ a {
 	width: 300px;
 	height: 420px;
 	margin: 50px 50px 50px 60px;
+	border-radius: 20px;
 }
 
 .photoline__name-text {
@@ -173,6 +178,21 @@ a {
 
 .year {
 	margin-right: 50px;
+}
+
+.course {
+	color: #59202e;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+
+.about {
+	margin: 20px;
+}
+
+h5 {
+	font-size: 20px;
+	margin: 15px;
 }
 
 @media (max-width: 1200px) {
